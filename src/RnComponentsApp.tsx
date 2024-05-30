@@ -3,7 +3,7 @@ import 'react-native-gesture-handler';
 import { StackNavigator } from './presentation/navigator/StackNavigator';
 import { ThemeProvider } from './presentation/context/ThemeContext';
 
-export const ComponentsApp = () => {
+export const RnComponentsApp = () => {
   return (
     <ThemeProvider>
       <StackNavigator />
